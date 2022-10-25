@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,700;1,700&family=Volkhov&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+                <a class="navbar-brand header_logo" href="/index.html"><img src="./img/logo.png" alt="logo" class="logo"></a>
+                <button class="navbar-toggler button_main_menu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><img class="icon_button_main_menu" src="./img/menu.svg" alt="menu"></span>
+                </button>
+                <div class="collapse navbar-collapse navigation" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link a_navigation" href="#ancor_appointment">Appointment <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a_navigation" href="#ancor_gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a_navigation" href="#ancor_services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a_navigation" href="#ancor_team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a_navigation" href="#ancor_reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a_navigation" href="#ancor_contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </header>
+
+        <section id="ancor_gallery">
+            <div class="page page_1">
+                <div class="column_left">
+                    <img src="./img/img5.png" alt="image_people">
+                </div>
+                <div class="column_midle">
+                    <div class="column_midle_1">
+                        <img class="column_midle_1_img_1" src="./img/img1.png" alt="image_people">
+                        <img class="column_midle_1_img_2" src="./img/img3.png" alt="image_people">
+                    </div>
+                    <div class="column_midle_2">
+                        <img class="column_midle_2_img_1" src="./img/img2.png" alt="image_people">
+                        <img class="column_midle_2_img_2" src="./img/img4.png" alt="image_people">
+                    </div>
+                </div>
+                <div class="column_right">
+                    <img src="./img/img6.png" alt="image_people">
+                </div>
+            </div>
+        </section>
+        
+        <section id="ancor_services">
+            <div class="page page_2">
+                <div class="types_of_servises">
+                    <div class="row_1">
+                        <div class="type type_1">
+                            <img src="./img/Ellipse 1.png" alt="type_of_servises">
+                            <p>Hair Styling</p>
+                        </div>
+                        <div class="type type_2">
+                            <img src="./img/Ellipse 2.png" alt="type_of_servises">
+                            <p>Beard Trimming</p>
+                        </div>
+                    </div>
+                    <div class="row_2">
+                        <div class="type type_3">
+                            <img src="./img/Ellipse 3.png" alt="type_of_servises">
+                            <p>Smooth Shave</p>
+                        </div>
+                        <div class="type type_4">
+                            <img src="./img/Ellipse 5.png" alt="type_of_servises">
+                            <p>Hair Straightening</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="aside_img">
+                    <img src="./img/img_main.png" alt="image_human">
+                </div>
+            </div>            
+        </section>
+
+        <section id="ancor_team">
+            <div class="page page_3">
+                <h1>Meet Our Highly Skilled Experts</h1>
+                <div class="staff">
+                    <div class="card card_1">
+                        <div>
+                            <p>Meredith</p>
+                        </div>
+                    </div>
+                    <div class="card card_2">
+                        <div>
+                            <p>Jason</p>
+                        </div>
+                    </div>
+                    <div class="card card_3">
+                        <div>
+                            <p>Ryan</p>
+                        </div>
+                    </div>
+                    <div class="card card_4">
+                        <div>
+                            <p>James</p>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section id="ancor_reviews">
+            <div class="page page_4">
+                <div class="reviews">
+                    <div class="reviews_input">
+                        <h1>Get in touch with Us and send a Message </h1>
+                        <div>
+                            <div class="input_first">
+                                <input class="input_text" type="text" name="text" placeholder="Name">
+                                <input class="input_email" type="email" name="email" placeholder="Email">
+                            </div>
+                            <div>
+                                <textarea class="input_message" id="message" name="message" placeholder="Message" cols="60" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.981220969149!2d-73.9495704911095!3d40.65234435328403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b67d3d9185b%3A0xbbef6c0eac64ea8d!2zODM2IE5ldyBZb3JrIEF2ZSwgQnJvb2tseW4sIE5ZIDExMjAzLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1665768403872!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <footer id="ancor_contact">
+                    <div class="contact">
+                        <div>
+                            <a href="mailto:kumarpratiyush1405@gmail.com"> <span>Email :</span> kumarpratiyush1405@gmail.com</a>
+                            <br>
+                            <a href="tel:+(972) 723429834"><span>Phone :</span>  +(972) 723429834</a>
+                            <p> <span>Headquarters :</span>  836th Avenue, 3rd Floor,New York,
+                            </p>
+                            <p>New York</p>
+                        </div>
+                        <div>
+                            <h1>Opening Hours</h1>
+                            <br>
+                            <p>Monday - Friday : 10:00 am - 05:00 pm</p>
+                            <p>Saturday : 10:00 am - 02:00 pm</p>
+                        </div>
+                        <div class="social_media">
+                            <h2>Connect With Us On</h2>
+                            <div>
+                                <div>
+                                    <img src="./img/instagram.svg" alt="Instagram">
+                                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>                        
+                                </div>
+                                <div>
+                                    <img src="./img/facebook.svg" alt="Facebook">
+                                    <a href="https://m.facebook.com/" target="_blank">Facebook</a>                        
+                                </div>
+                                <div>
+                                    <img src="./img/twiter.svg" alt="Twitter">
+                                    <a href="https://twitter.com/" target="_blank">Twitter</a>                        
+                                </div>
+                            </div>   
+                        </div>
+                    </div>                    
+                </footer>
+            </div>            
+        </section>
+
+    </main>   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
